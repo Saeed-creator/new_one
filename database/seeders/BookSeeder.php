@@ -33,5 +33,11 @@ class BookSeeder extends Seeder
             'description' => 'A dystopian novel about a totalitarian regime and the dangers of surveillance and propaganda.',
             'year_published' => 1949,
         ]);
+        Book::create([
+            'title' => 'ASPU',
+            'author' => 'F. Scott Fitzgerald',
+            'description' => 'A classic novel set in the 1920s, exploring themes of wealth and society.',
+            'year_published' => 1925,
+        ]);
     }
 }
